@@ -1,0 +1,44 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 30,
+  "modules-left": [
+    "sway/workspaces"
+  ],
+
+  "modules-center": [
+    "clock"
+  ],
+
+  "modules-right": [
+    "cpu",
+    "memory",
+    "network",
+    "pulseaudio",
+    "battery"
+  ],
+
+  "clock": {
+    "format": "{:%H:%M}"
+  },
+
+  "cpu": {
+    "format": "CPU {usage}%"
+  },
+
+  "memory": {
+    "format": "RAM {}%"
+  },
+
+  "network": {
+    "format-wifi": "{signalStrength}%"
+  },
+
+  "pulseaudio": {
+    "format": "{volume}%"
+  },
+
+  "battery": {
+    "format": "{capacity}%"
+  }
+}
